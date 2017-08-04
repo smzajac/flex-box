@@ -33,10 +33,21 @@ img{
     margin: 0;
     display: block;
 }
+
+.shrink{
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  margin-bottom: 50px;
+}
+
+
 .wrapper{
     width: 1000px;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+
 
     /*
         TODO:
@@ -164,7 +175,7 @@ aside{
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
     /*
         TODO:
         - Flexbox: Set the starting width of this element
@@ -212,6 +223,7 @@ article img{
     */
 }
 article footer p{
+
     /*
         TODO:
         - Style the article footer
@@ -221,6 +233,9 @@ article footer p{
 #site-footer{
 
     background: #333;
+    text-align: center;
+    color: white;
+    padding: 15px;
     /*
         TODO:
         - Style the site footer
